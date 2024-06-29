@@ -23,9 +23,7 @@ class MainActivity : AppCompatActivity() {
             "australia"
         )
 
-        val arrayAdapter: ArrayAdapter<*>
-
-        arrayAdapter = ArrayAdapter(
+        val arrayAdapter: ArrayAdapter<*> = ArrayAdapter(
             this,
             android.R.layout.simple_list_item_1,
             countries
